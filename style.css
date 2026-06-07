@@ -186,7 +186,7 @@ h2 {
     font-family: 'Obra-letra', serif;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 900px) {
 
     .pagina,
     .titulo {
