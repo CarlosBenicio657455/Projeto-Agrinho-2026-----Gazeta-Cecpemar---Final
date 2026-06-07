@@ -101,7 +101,7 @@ body{
 p {
     text-indent: 50px;
     text-align: justify;
-    font-size: clamp(16px, 2vw, 25px);
+    font-size: clamp(1px, 2vw, 25px);
     font-family: 'Obra-letra', serif;
 }
 
