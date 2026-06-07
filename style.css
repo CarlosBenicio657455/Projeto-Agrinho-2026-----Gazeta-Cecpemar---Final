@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Chomsky';
+    src: url('fonts/Chomsky/Chomsky.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Bree-Serif';
+    src: url('fonts/Bree-Serif/BreeSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Obra-letra';
+    src: url('fonts/kc-obra-letra/KCObraLetraRegular.woff2') format('woff2');
+}
+
+body{
+    background-color: #a2a5ad;
+    margin: 0;
+    padding: 0;
+}
+.pagina {
+    border: 4px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    display: none;
+ 
+}
+
+.ativa {
+    display: block;
+    background-color: antiquewhite;
+    margin: top 0;
+ 
+
+}
+
+.titulo {
+    border: 4px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    font-family:'Chomsky', serif;
+    font-weight: normal;
+    background-color: antiquewhite;
+    margin: bottom 0;
+}
+
+.titulo1 {
+  text-align: center;
+  font-size: clamp(50px, 8vw, 140px);
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  font-family:'Chomsky', serif;
+}
+
+.data {
+    padding-left: 20px;
+    text-align: left;
+    font-size: clamp(16px, 2vw, 40px);
+}
+
+.numeracao{
+    padding-right: 20px;
+    text-align: right;
+    font-size: clamp(10px, 1vw, 25px);
+}
+
+.proximapagina {
+    display: flex;
+    justify-self: flex-end;
+    margin-top: auto;
+    font-size: clamp(13px, 2vw, 30px);
+    font-family: 'Obra-letra', serif;
+    background-color: rgb(190, 164, 129);
+    margin-bottom: 20px;
+}
+
+.paginaanterior {
+    display: flex;
+    justify-self: flex-start;
+    margin-top: auto;
+    font-size: clamp(13px, 2vw, 30px);
+    font-family: 'Obra-letra', serif;
+    background-color: rgb(190, 164, 129);
+     margin-bottom: 20px;
+}
+
+.meiapagina {
+
+    min-height: 1239px;
+    justify-content: center;
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    font-size: clamp(16px, 2vw, 25px);
+    font-family: 'Bree-Serif', serif;
+}
+
+h1 {
+    font-size: clamp(16px, 2vw, 40px);
+    font-family: 'Obra-letra', serif;
+}
+
+.ladoesquerdo {
+    padding-right: 50px;
+    border-right: 3px solid black;
+    justify-content: flex-start;
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ladodireito {
+    padding-left: 50px;
+    border-left: 3px solid black;
+    justify-content: flex-start;
+    width: 50%;
+    box-sizing: border-box;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img.ampliavel, .agrinho {
+    border: 4px solid black;
+    padding: 5px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ampliavel{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ampliada {
+    
+
+    position: fixed;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%) scale(0.8);
+
+    z-index: 1000;
+
+    max-width: 80vw;
+
+    max-height: 80vh;
+
+    box-shadow: 0 0 30px black;
+
+}
+
+.colunas {
+
+    display: flex;
+}
+
+.corpo11 {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h2 {
+    font-size: clamp(16px, 2vw, 30px);
+    font-family: 'Obra-letra', serif;
+}
