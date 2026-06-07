@@ -18,11 +18,12 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .pagina {
-    border: 4px solid black;
     margin-left: 25%;
     margin-right: 25%;
     width: 50%;
+    border: 4px solid black;
     display: none;
  
 }
@@ -101,8 +102,8 @@ body{
 p {
     text-indent: 50px;
     text-align: justify;
-    font-size: clamp(1px, 2vw, 25px);
-    font-family: 'Obra-letra', serif;
+    font-size: clamp(16px, 2vw, 25px);
+    font-family: 'Bree-Serif', serif;
 }
 
 h1 {
